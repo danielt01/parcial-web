@@ -1,0 +1,84 @@
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario1</title>
+	<meta name="Author" content=""/>
+	<link rel="stylesheet"  href="Estilo1.css">
+	<link rel="stylesheet"  href="css/normalize.css">
+	<!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js
+"
+></script>  
+</head>
+<body>
+
+
+
+<h1>Web<span>Developer</span></h1>
+
+<form action="Ficha.html" method="get">
+
+<div class="contenedor">
+   <h4 class="titulo">Formulario de afiliacion</h4>
+   
+   <div class="input-group mb-2 seccion">
+  <input type="text" class="form-control" placeholder="Nombre Completo" aria-label="Recipient's username" aria-describedby="basic-addon2" id="nombre" name="nombre">
+  <span class="input-group-text" id="basic-addon2"><i class="fas fa-user"></i></span>
+</div>
+   
+<div class="input-group mb-2 seccion">
+  <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2" id="email" name="email">
+  <span class="input-group-text" id="basic-addon2"><i class="fas fa-envelope"></i></span>
+</div>
+   
+<div class="input-group mb-2 seccion">
+  <input type="text" class="form-control" placeholder="Telefono" aria-label="Recipient's username" aria-describedby="basic-addon2" id="tel" name="telefono">
+  <span class="input-group-text" id="basic-addon2"><i class="fas fa-phone"></i></span>
+</div>   
+   
+ <div class="input-group mb-2 seccion">
+  <input type="text" class="form-control"  aria-label="Recipient's username" aria-describedby="basic-addon2" id="gustos" >
+  <span class="input-group-text cerca btn btn-outline-success " > <a id="btn-gustos">Gustos</a></span>
+</div>   
+   
+   <div class="tabla link">
+       <div class="bandera">
+           <i class="far fa-flag banderita" ></i>
+       </div>
+       <div class="tablita" >
+<table id="customers">
+ <thead>
+     <tr>
+    <th>Gusto</th>
+    <th>%</th>
+    <th>edit</th>
+      </tr>
+ </thead>
+  <tbody id="pila">
+
+  </tbody>
+  
+
+</table>
+           
+       </div>
+   </div>
+   
+   <div class="botones-envio" id="validar">
+       <span>Pulse aceptar para guardar los cambios o cancelar para anularlos</span>
+       <button class="btn btn-outline-secondary" id="val-aceptar" type="submit">Aceptar</button>
+       <button  class="btn btn-outline-danger" id="val-cancelar">Cancelar</button>
+   </div>
+   
+   <a class="quitar">Ir Site de P web</a>
+    
+</div>
+</form>
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="jquery-3.6.0.min.js"></script>
+<script src="agregar.js"></script>
+
+</body>
+</html>
